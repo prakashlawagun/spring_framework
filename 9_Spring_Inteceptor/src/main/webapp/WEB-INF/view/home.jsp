@@ -26,7 +26,7 @@
 		<a href="user/profile" class=" btn  btn-danger">Profile</a>
 
 		<c:if test="${not empty loginUser}">
-			<a href="/user/logout" class="btn btn-primary">Logout</a>
+			<a href="user/logout" class="btn btn-primary">Logout</a>
 		</c:if>
 
 
