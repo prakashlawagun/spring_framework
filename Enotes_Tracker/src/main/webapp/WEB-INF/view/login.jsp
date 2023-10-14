@@ -23,7 +23,7 @@
 						</c:if>
 					</div>
 					<div class="card-body">
-						<form action="loginUser" method="post">
+						<form action="${pageContext.request.contextPath}/loginUser" method="post">
 
 							<div class="mb-3">
 								<label>Enter Email</label> <input type="email" name="email"
